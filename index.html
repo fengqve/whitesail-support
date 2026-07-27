@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="WhiteSail support and privacy policy.">
+  <title>WhiteSail Support and Privacy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+      color: #17201b;
+      background: #f4f7f5;
+    }
+    body { margin: 0; }
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+    nav {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin: 16px 0 36px;
+    }
+    a { color: #126ed1; }
+    h1 {
+      font-size: 32px;
+      line-height: 1.2;
+      margin: 0 0 12px;
+    }
+    h2 {
+      font-size: 22px;
+      margin: 42px 0 12px;
+    }
+    h3 {
+      font-size: 17px;
+      margin: 24px 0 8px;
+    }
+    p, li { font-size: 16px; }
+    .effective { color: #5d6862; }
+    .note {
+      padding: 14px 16px;
+      background: #fff;
+      border: 1px solid #dce4df;
+      border-radius: 8px;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid #d9e1dc;
+      margin: 42px 0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color: #f0f4f1;
+        background: #151916;
+      }
+      a { color: #79b8ff; }
+      .effective { color: #b7c0ba; }
+      .note {
+        background: #1e2420;
+        border-color: #354039;
+      }
+      hr { border-color: #354039; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>WhiteSail Support and Privacy</h1>
+    <p>WhiteSail helps you understand current network responsiveness, compare saved places on the same Wi-Fi, and check whether another DNS setup may fit that network.</p>
+    <nav>
+      <a href="#support-en">English Support</a>
+      <a href="#privacy-en">English Privacy Policy</a>
+      <a href="#support-zh">中文支持</a>
+      <a href="#privacy-zh">中文隐私政策</a>
+    </nav>
+
+    <section id="support-en">
+      <h2>English Support</h2>
+      <h3>Quick Start</h3>
+      <ol>
+        <li>Open Live to see the current response, variation, interruptions, and next useful action.</li>
+        <li>Open Saved Places and run a short check at a place you often use, such as a bed, sofa, desk, or custom place.</li>
+        <li>Compare saved readings from the same identifiable Wi-Fi.</li>
+        <li>Use Further Check when you want WhiteSail to compare the current DNS with regional public DNS candidates.</li>
+        <li>Review the provider, Wi-Fi matching rule, and raw profile before choosing to install a configuration.</li>
+      </ol>
+
+      <h3>Why does WhiteSail ask for location permission?</h3>
+      <p>iOS requires location permission before an app can read the current Wi-Fi name. WhiteSail uses the permission only to request the SSID. It does not request, store, or transmit geographic coordinates.</p>
+
+      <h3>Does changing DNS always make the internet faster?</h3>
+      <p>No. DNS mainly affects name lookups. It cannot strengthen Wi-Fi signal, expand router coverage, or increase ISP bandwidth. WhiteSail presents a measured comparison so you can decide whether a reversible trial is worthwhile.</p>
+
+      <h3>How does the per-Wi-Fi profile work?</h3>
+      <p>WhiteSail can generate a standard Apple configuration profile with encrypted DNS settings and Wi-Fi SSID match rules. Saved Wi-Fi networks can use their mapped DNS provider, while cellular data and unlisted Wi-Fi networks keep system settings. iOS requires you to inspect and confirm installation or removal in Settings.</p>
+
+      <h3>Contact Support</h3>
+      <p class="note">Email <a href="mailto:fengqve@qq.com">fengqve@qq.com</a>. Include the WhiteSail version and build, iPhone model, iOS version, app language, the screen where the issue occurred, and reproduction steps.</p>
+    </section>
+
+    <section id="privacy-en">
+      <h2>English Privacy Policy</h2>
+      <p class="effective">Effective date: July 27, 2026</p>
+      <p>WhiteSail is designed without an account, advertising SDK, analytics SDK, tracking SDK, or WhiteSail-operated backend.</p>
+
+      <h3>Data Stored on Your Device</h3>
+      <p>WhiteSail may store network readings, saved place names, Wi-Fi names, DNS mappings, and recent action results locally on your device. This data is used to show comparisons and generate the configuration you request. WhiteSail does not upload these records to a WhiteSail server.</p>
+
+      <h3>Location Permission</h3>
+      <p>iOS requires location permission before an app can read the current Wi-Fi name. WhiteSail uses this permission only to request the SSID through Apple's NEHotspotNetwork API. WhiteSail does not request, store, or transmit your geographic coordinates.</p>
+
+      <h3>Network Checks</h3>
+      <p>WhiteSail contacts public connectivity-check, speed-test, website, and DNS services to measure network behavior. Those services receive normal network request information, which may include your public IP address, request time, and the fixed representative hostname or domain being tested. WhiteSail does not read your Safari history or send your personal browsing history to DNS candidates.</p>
+      <p>The provider operating each public service controls its own logs and privacy practices. Changing DNS also means future DNS queries covered by that configuration are handled under the selected DNS provider's terms and privacy policy.</p>
+
+      <h3>Safari Content Blocker</h3>
+      <p>The WhiteSail Safari content blocker uses a local static rule list. The extension does not send browsing history to WhiteSail. It reduces requests to a limited set of known advertising and tracking domains and does not block every ad.</p>
+
+      <h3>Configuration Profiles</h3>
+      <p>WhiteSail can generate a standard Apple configuration profile containing encrypted DNS settings and Wi-Fi SSID match rules. You can inspect the raw profile before installation. iOS requires you to confirm installation and removal in Settings. WhiteSail cannot read the final installed state of a manually installed profile.</p>
+
+      <h3>Your Controls</h3>
+      <p>You can remove individual Wi-Fi mappings or clear them in WhiteSail, remove the installed profile in iOS Settings, and delete the app to remove its local app data.</p>
+
+      <h3>Contact</h3>
+      <p>For privacy questions, email <a href="mailto:fengqve@qq.com">fengqve@qq.com</a>.</p>
+    </section>
+
+    <hr>
+
+    <section id="support-zh">
+      <h2>中文支持</h2>
+      <h3>快速使用</h3>
+      <ol>
+        <li>打开“实时”，查看当前网络的反应、波动、中断和下一步建议。</li>
+        <li>打开“常用位置”，在床、沙发、桌旁或自定义位置进行一次短检测。</li>
+        <li>比较同一张可识别 Wi-Fi 下保存的位置读数。</li>
+        <li>需要时使用“进一步检查”，比较当前 DNS 与按地区选择的公共 DNS 候选。</li>
+        <li>决定安装配置前，先核对服务商、Wi-Fi 匹配规则和原始配置内容。</li>
+      </ol>
+
+      <h3>为什么需要位置权限？</h3>
+      <p>iOS 要求 App 获得位置权限后才能读取当前 Wi-Fi 名称。白帆只用它请求 SSID，不请求、保存或传输地理坐标。</p>
+
+      <h3>更换 DNS 一定会让网络更快吗？</h3>
+      <p>不一定。DNS 主要影响域名解析，不能增强 Wi-Fi 信号、扩大路由器覆盖或提高运营商带宽。白帆展示实际测得的对比，由你决定是否进行可撤销的试用。</p>
+
+      <h3>按 Wi-Fi 匹配的配置如何工作？</h3>
+      <p>白帆可以生成包含加密 DNS 设置与 Wi-Fi 名称匹配规则的标准 Apple 描述文件。已保存的 Wi-Fi 可使用各自映射的 DNS 服务；蜂窝网络和未列出的 Wi-Fi 保持系统设置。安装和移除都需要你在 iOS 设置中检查并确认。</p>
+
+      <h3>联系支持</h3>
+      <p class="note">请发送邮件至 <a href="mailto:fengqve@qq.com">fengqve@qq.com</a>，并附上白帆版本与构建号、iPhone 型号、iOS 版本、App 语言、出现问题的页面和复现步骤。</p>
+    </section>
+
+    <section id="privacy-zh">
+      <h2>中文隐私政策</h2>
+      <p class="effective">生效日期：2026 年 7 月 27 日</p>
+      <p>白帆不包含账号、广告 SDK、分析 SDK、追踪 SDK，也没有接收用户记录的白帆自有后台。</p>
+
+      <h3>保存在本机的数据</h3>
+      <p>白帆可能在设备本机保存网络读数、位置名称、Wi-Fi 名称、DNS 映射和最近动作结果，用于展示对比和生成你主动请求的配置。白帆不会把这些记录上传到白帆服务器。</p>
+
+      <h3>位置权限</h3>
+      <p>iOS 要求 App 获得位置权限后才允许读取当前 Wi-Fi 名称。白帆只通过 Apple 的 NEHotspotNetwork API 请求 SSID，不请求、保存或传输你的地理坐标。</p>
+
+      <h3>网络检测</h3>
+      <p>白帆会访问公共连通性检测、测速、网站和 DNS 服务来测量网络表现。这些服务会收到正常的网络请求信息，可能包括公网 IP、请求时间，以及本次测试使用的固定代表性主机名或域名。白帆不会读取 Safari 历史，也不会把你的个人浏览历史发送给 DNS 候选。</p>
+      <p>公共服务的运营方按照其自身条款和隐私政策处理日志。更换 DNS 后，配置覆盖范围内的后续 DNS 查询也会由所选服务商按其条款和隐私政策处理。</p>
+
+      <h3>Safari 内容拦截</h3>
+      <p>白帆 Safari 内容拦截扩展使用本地静态规则，不会把浏览历史发送给白帆。它只减少一小部分已知广告和追踪域名请求，不能拦截所有广告。</p>
+
+      <h3>描述文件</h3>
+      <p>白帆可以生成包含加密 DNS 设置和 Wi-Fi 名称匹配规则的标准 Apple 描述文件。你可以在安装前查看原始内容。安装和移除必须由你在 iOS 设置中确认；白帆不能读取手动安装的描述文件最终是否仍处于安装状态。</p>
+
+      <h3>你的控制</h3>
+      <p>你可以在白帆中移除单个 Wi-Fi 映射或清空映射，在 iOS 设置中移除已安装的描述文件，并通过删除 App 移除本机 App 数据。</p>
+
+      <h3>联系我们</h3>
+      <p>隐私问题请联系 <a href="mailto:fengqve@qq.com">fengqve@qq.com</a>。</p>
+    </section>
+  </main>
+</body>
+</html>
